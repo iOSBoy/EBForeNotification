@@ -65,9 +65,9 @@ UIWindow *originWindow;
     [self.icon_image setImage:appIcon];
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     // app名称
-    NSString *appName = [infoDictionary objectForKey:@"CFBundleName"];
+    NSString *appName = [infoDictionary objectForKey:@"CFBundleDisplayName"];
     if (!appName) {
-        appName = [infoDictionary objectForKey:@"CFBundleDisplayName"];
+        appName = [infoDictionary objectForKey:@"CFBundleName"];
     }
     //appName = @"input a app name here"; //if appName = nil, unsign this line and change it to you'r own app name.
     if (!appName) {
