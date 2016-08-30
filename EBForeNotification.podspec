@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 在 App 处于前台时展示跟系统完全一样的推送弹窗和声音。获取推送内容，并处理点击事件。iOS Foreground Push Notification, the same as the system style, both Banner and Sound.
                    DESC
 
-  s.homepage     = "https://github.com/Yasashi/EBForeNotification"
+  s.homepage     = "https://github.com/iOSBoy/EBForeNotification"
   # s.screenshots  = "https://github.com/Yasashi/EBForeNotification/raw/master/screenshot/screenshot01.gif", "https://github.com/Yasashi/EBForeNotification/raw/master/screenshot/screenshot02.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Yasashi/EBForeNotification.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/iOSBoy/EBForeNotification.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
